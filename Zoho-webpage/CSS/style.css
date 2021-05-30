@@ -1,0 +1,1335 @@
+*{
+	margin: 0;
+	border: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+	outline: none;
+}
+.container{
+     
+    max-width: 1280px;
+	margin: auto; 
+
+}
+header{
+
+	width: 100%;
+    background-color: #FCEFD8;
+    padding: 16px 10px;
+    text-align: center;
+	
+}
+header a{
+    text-decoration: none;
+	color: black;
+	font-weight: bolder;
+	border-bottom: 1px solid black;
+	font-size: 16px;
+    line-height: 1.6;
+}
+.main{
+
+	padding: 0 60px;
+	
+}
+nav{
+    
+	width: 95%;
+    
+    position: relative;
+    margin: 20px auto 0;
+ 
+}
+.zoho-logo{
+
+	height: 40px;
+    width: 120px;
+    position: absolute;
+    left: 20px;
+    top: -5px;
+    background-image: url(../Images/icon.png);
+    background-position: -429px 0px;
+    background-repeat: no-repeat;
+    background-size: auto 70px;
+	
+}
+.search-icon{
+    
+	background-image: url(../Images/icon.png);
+	width: 25px;
+    box-sizing: border-box;
+    height: 21px;
+    background-size: auto 100px;
+    cursor: pointer;
+    background-position: -398px -73px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    top: -2px;
+    transform: scale(.8);
+    background-repeat: no-repeat;
+
+}
+.nav-1{
+
+	text-align: right;
+}
+.nav-1 a,.footer4 a{
+	color: black;
+	text-decoration: none;
+	position: relative;
+	padding: 12px 15px 10px;
+	font-size: 14px;
+	
+}
+.nav-1 a:nth-child(5){
+	color: red;
+}
+.nav-1 a:nth-child(6)::before{
+
+	content: " ";
+    height: 15px;
+    width: 15px;
+    background-image: url(../Images/icon-6.png);
+    background-position: -88px 0px;
+    background-repeat: no-repeat;
+    background-size: 730px auto;
+    position: absolute;
+    left: -5px;
+    top: 13px;
+     
+}
+.top-content{
+    width: 100%;
+	line-height: 2;
+	font-weight: bolder;
+    text-align: center;
+	padding: 70px;
+}
+pre{
+	text-align: center;
+	font-size: 0.7em;
+	letter-spacing: 3px;
+}
+.cards{
+    width: 100%;
+	height: 350px;
+	/* border: 1px solid rgb(230, 230, 230); */
+	display: grid;
+	grid-template-columns: 1fr 1fr 1.3fr 1.3fr;
+	grid-template-rows: repeat(2,1fr);
+}
+.card-one{
+
+    grid-area: 1/1/3/3;
+	background: linear-gradient(to right,#e8f4ff 30%,#fff 100%);
+	border: 1px solid rgb(230, 230, 230);
+    display: flex;
+	/* padding: 20px; */
+
+}
+.card1-child1{
+    flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    line-height: 1;
+}
+.card-1child2{
+    flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+    line-height: 1.8;
+}
+.crm-icon{
+     
+	height: 80px;
+    width: 76px;
+    background-image: url(../Images/icon.png);
+    background-position: -875px 20px;
+    background-repeat: no-repeat;
+    background-size: auto 100px;
+	transform: scale(1.2);
+	margin-top: -25px;
+}   
+.card-btn{
+
+     height: 35px;
+	 width: 130px;
+	 background-color: #f0483e;;
+     color: white;
+	 font-weight: bolder;
+	 margin-top: 15px;
+}
+.card-btn2{
+
+	height: 30px;
+	width: 105px;
+	background-color: white;
+	border: 1px solid #03a9f5;
+	color:#03a9f5;
+	margin-top: 10px;
+	font-size: 0.6em;
+	font-weight: bolder;
+	
+
+} 
+.card-two{
+
+	grid-area: 1/3/2/4;
+	display: flex;
+	border-bottom: 1px solid rgb(230, 230, 230);
+    border-right: 1px solid rgb(230, 230, 230);
+}
+.cards-icon{
+
+	width: 64px;
+    height: 64px;;
+    background-image: url(../Images/icon-2.png);
+    background-size: 960px auto;
+	margin-top: -25px;
+}
+.mail-icon{
+
+	background-position: -256px 0;
+	
+}
+.projects-icon{
+
+	background-position: -448px 0px;
+}
+.people-icon{
+    
+	background-position: -192px -160px;
+}
+.creator1-icon{
+
+	background-position: -192px 0;
+   
+}  
+.remotelyb-icon{
+    
+    background-position: -1727px 0px;
+	transform: scale(1.2);
+}
+.assist-icon{
+    
+	
+    background-position: -64px -160px;
+	 
+}
+.meeting-icon{
+    
+	
+    background-position: -833px 0px;
+	 
+}
+.sprint-icon{
+    
+    background-position: -128px -160px;
+	 
+}
+.cliq-icon{
+    
+    background-position: -896px 0px
+	 
+}
+.card-three{
+
+	grid-area: 1/4/2/5;
+	display: flex;
+	border-bottom: 1px solid rgb(230, 230, 230);
+}
+.card-four{
+
+	grid-area: 2/3/3/4;
+	display: flex;
+    border-right: 1px solid rgb(230, 230, 230);
+}
+.card-five{
+
+	grid-area: 2/4/3/5;
+	display: flex;
+}
+#z1{
+
+	border:1px solid #efefef;
+}
+.zoho-one-box{
+
+	 width: 100%;
+	 height: 200px;
+	 /* border:1px solid  rgb(230, 230, 230);  */
+	 border-bottom: none; 
+     display: flex;
+	 position: relative;
+}
+.z1-card-one{
+  
+	flex-grow: 1;
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-left: 20px;
+}
+.z1-card-two{
+     
+    flex-grow: 1;	
+    display: flex;
+	flex-direction: column;
+	justify-content: center;	
+
+}
+.z1-card-two a,.zoho-one-apps a{    
+	color: #03a9f5;
+	border-bottom: 1px solid #03a9f5;
+	text-decoration: none;
+	align-self: flex-start;
+}
+.z1-icon{
+   
+	height: 76px;
+    width: 69px;
+    background-image: url(../Images/icon-2.png);
+    background-repeat: no-repeat;
+    background-size: auto 303px;
+    background-position: -872px -161px;
+}
+.zoho-one-box h6{
+
+	 position: absolute;
+	 top: -4%;
+	 left: 48%;
+	 transform: translate(-50%);
+	 background-color:white;
+	 z-index: 1;
+	 letter-spacing:3px;
+	 font-size: 14px; 
+}
+.zoho-one-apps{
+
+     width:99%;
+	 border-top:1px solid #efefef;
+     margin: auto;
+	 display: grid;
+	 grid-template-columns: repeat(4,1fr);
+	 grid-template-rows: repeat(2,1fr);
+
+}.z1-apps{
+ 
+     display: flex;
+	 flex-direction: column;	
+	 justify-content: center;
+	 padding: 40px  0px 40px 30px;
+	 line-height: 1.6;
+}
+.box-4{
+
+    padding-left: 0px;
+
+
+}
+.cards1-icon{
+
+	height: 66px;
+    width: 66px;
+    background-size: auto 66px;
+    background-image: url(../Images/icon.png);
+    margin-bottom: 20px;
+
+
+}
+.crm-plus-icon{
+
+    background-position: -2px 0px;
+}
+.workplace-icon{
+
+	background-position: -69px 0px;
+}
+.finance-plus-icon{
+
+	background-position: -132px 0px;
+
+}
+.creator-plus-icon{
+
+	width: 65px; 
+	background-position: -731px 0px;
+
+}
+.people-plus-icon{
+
+    background-position: -339px 0px;
+
+}
+.itm-icon{
+
+	    background-position: -1052px 0px;
+		
+}
+.zoho-all-apps-main{
+
+     width: 100%;
+	 height: 1000px;
+	 display: flex;
+
+}
+.zoho-all-apps-main-box1,.zoho-all-apps-main-box2,.zoho-all-apps-main-box3{
+
+	 flex-grow: 1;
+	 border-right:1px solid #efefef;
+     display: grid;
+	 grid-template-columns: repeat(3,1fr);
+	 grid-template-rows: 1.5fr repeat(7,1fr);
+	 padding: 10px;
+     
+}
+.zoho-all-apps-main-box3{
+
+	border-right: none;
+	position: relative;
+
+}
+.zoho-all-apps-main-box1-grid1{
+
+       grid-area: 1/1/2/4;
+	   text-align: center;
+	   margin: auto;
+	   line-height: 1.5;
+	   
+}
+.zoho-all-apps-main-box1-grid2{
+
+	border-bottom: 1px solid #efefef;
+}
+.zoho-all-apps-main-box1-grid1 p{
+            
+	font-size: 14px;
+    color: #333;	
+}
+.zoho-all-apps-main-box1-grid1 h3{
+       
+	line-height: 2;
+
+}
+.zoho-all-apps-main-box1-grid2{
+    
+	grid-area: 2/1/3/3;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    justify-content: center;
+	border-right: 1px solid #efefef;
+}
+.zoho-all-apps-main-box1-grid2 h4{
+
+	margin:5px 0 10px 0;
+
+}
+.zoho-all-apps-main-box1 div,.zoho-all-apps-main-box2 div,.zoho-all-apps-main-box3 div{
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #333;
+}
+.g4,.g5,.g7,.g8,.g10,.g11,.g13,.g14,.g16,.g17{
+    
+	border-right: 1px solid #efefef;
+	border-bottom: 1px solid #e8f4ff;
+
+}
+.g3,.g6,.g9,.g12,.g15,.g18{
+
+	border-bottom: 1px solid #efefef;
+}
+ .zoho-all-apps-main h6{
+     
+	margin-top: 10px;
+
+}
+.cards-icon-sprite{
+
+	height: 40px;
+    width: 45px;
+    background-image: url(../Images/icon-2.png);
+    background-repeat: no-repeat;
+    background-size: auto 300px;
+}
+.bigin-icon{
+
+	background-position: 11px -130px;
+}
+.cliq2-icon{
+
+	width: 34px;
+	height: 38px;
+	background-position: -700px -63px;
+    
+}
+.inventory-icon{
+
+	  height: 37px;
+	  width: 34px;
+	  background-position: -453px -63px;
+	  background-size: auto 291px;
+    	
+}
+.campaign-icon{
+
+	height: 36px;
+	width: 36px;
+	background-position: -329px -65px;
+	background-size: auto 297px;
+}
+.form-icon{
+     
+	height: 36px;
+	width: 36px;
+	background-position: -131px -65px;
+	background-size: auto 297px;
+}
+.sign-icon{
+
+	height: 36px;
+	width: 36px;
+	background-position: -163px -65px;
+	background-size: auto 297px;
+
+}
+.social-icon{
+
+    height: 35px;
+	width: 36px;
+	background-position: -196px -65px;
+	background-size: auto 297px;
+
+}
+.salesiq-icon{
+
+    height: 35px;
+	width: 36px;
+	background-position: -230px -65px;
+	background-size: auto 297px;
+
+}
+.survey-icon{
+    
+	height: 36px;
+	width: 33px;
+	background-position: -265px -65px;
+	background-size: auto 298px;
+
+}
+.salesinbox-icon{
+
+    height: 36px;
+	width: 34px;
+	background-position: -298px -64px;
+	background-size: auto 298px;
+
+}
+.site-icon{
+
+	height: 36px;
+	width: 34px;
+	background-position: -365px -65px;
+	background-size: auto 298px;
+
+}
+.pagesense-icon{
+
+	height: 36px;
+	width: 36px;
+	background-position: -99px -65px;
+	background-size: auto 298px;
+
+}
+.backstage-icon{
+
+    height: 36px;
+	width: 36px;
+	background-position: -527px -100px;
+	background-size: auto 297px;
+
+}
+.commerce-icon{
+
+    height: 36px;
+	width: 36px;
+	background-position: -495px -100px;
+	background-size: auto 297px;
+
+}
+.booking-icon{
+
+	height: 36px;
+	width: 36px;
+	background-position: -726px -100px;
+	background-size: auto 297px;
+}
+.mh-icon{
+
+	height: 36px;
+	width: 34px;
+	background-position: -760px -102px;
+	background-size: auto 297px;
+}
+.wd-icon{
+    
+	height: 38px;
+	width: 37px;
+	background-position: -799px -101px;
+
+}
+.docs-icon{
+
+	height: 36px;
+	width: 34px;
+	background-position: -732px -64px;
+	background-size: auto 299px;
+}
+.writter-icon{
+
+	height: 36px;
+	width: 34px;
+	background-position: -767px -64px;
+}
+.sheet2-icon{
+
+	height: 36px;
+	width: 34px;
+	background-position: -801px -65px;
+}
+.show2-icon{
+
+	height: 36px;
+	width: 34px;
+	background-position: -826px -64px;
+	background-size: auto 297px;
+}
+.project-icon{
+
+	height: 36px;
+	width: 34px;
+	background-position: -858px -64px;
+	background-size: auto 297px;
+	margin-top: 1px
+}
+.sprints2-icon{
+
+	height: 36px;
+	width: 34px;
+	background-position: -893px -64px;
+	background-size: auto 297px;
+}
+.bgt-icon{
+
+	height: 36px;
+	width: 34px;
+	background-position: -924px -64px;
+	background-size: auto 297px;
+}
+.connect-icon{
+
+	height: 36px;
+	width: 34px;
+	background-position: -958px -65px;
+	background-size: auto 297px;
+}
+.meeting2-icon{
+
+	height: 36px;
+	width: 34px;
+	background-position: -0px -97px;
+	background-size: auto 297px;
+}
+.vault-icon{
+
+	height: 36px;
+	width: 34px;
+	background-position: -33px -97px;
+	background-size: auto 297px;
+}
+.st-icon{
+
+	height: 36px;
+	width: 34px;
+	background-position: -66px -98px;
+	background-size: auto 297px;
+}
+.nb-icon{
+
+	height: 36px;
+	width: 34px;
+	background-position: -99px -98px;
+	background-size: auto 297px;
+}
+.wiki-icon{
+
+	height: 36px;
+	width: 34px;
+	background-position: -132px -99px;
+	background-size: auto 296px;
+}
+.tb-icon{
+
+	height: 36px;
+	width: 34px;
+	background-position: -264px -128px;
+	background-size: auto 297px;
+}
+.tm-icon{
+
+	height: 36px;
+	width: 34px;
+	background-position: -298px -128px;
+	background-size: auto 297px;
+}
+.zoho-all-apps-main-box1-grid3 h6{
+
+	margin: 10px 0 0 10px;
+}
+.invoice-icon{
+
+	background-position: -480px -64px;
+	background-size: 960px auto;
+	width: 32px;
+	height: 32px;
+
+}
+.subs-icon{
+
+	background-position: -512px -64px;
+	background-size: 960px auto;
+    width: 32px;
+	height: 32px;
+}
+
+.expense-icon{
+ 
+	background-size: 960px auto;
+	background-position: -544px -64px;
+    width: 32px;
+	height: 32px;
+}
+.checkout-icon{
+
+	background-position: -576px -64px; 
+	background-size: 960px auto;
+    width: 32px;
+	height: 32px;
+
+}
+.payrol-icon{
+   
+	background-position: -672px -96px;
+	background-size: 960px auto;
+    width: 32px;
+	height: 32px;
+}
+
+.zoho-all-apps-main2{
+
+    width: 100%;
+    height: 800px;
+	display: flex;
+	padding: 5px;
+	
+}
+.main2-b1,.main2-b2,.main2-b3{
+
+	flex-grow:1;
+
+}
+.main2-b1,.main2-b3{
+
+	  display: grid;
+	  grid-template-columns: repeat(3,1fr);
+	  grid-template-rows: repeat(6,1fr);
+	  border-right: 1px solid #efefef;
+	  padding: 10px;
+}
+.main2-b2{
+    width: 33%;
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	border-right: 1px solid #efefef;
+
+}
+.main2-b2-bb1{
+
+	flex-grow: 1.1;
+	/* border-right: 1px solid #efefef; */
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-template-rows: repeat(3,1fr);
+
+}
+.main2-b2-bb2{
+
+	flex-grow: 1;
+    display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-template-rows: repeat(2,1fr);
+}
+.banner{
+
+	width: 90%;
+	height: 240px;
+	margin: auto;
+	display: flex;
+	
+}
+.bg{
+	flex-grow: 2;
+}
+.banner-1,.banner-2{
+
+	flex-grow: 1;	
+	width: 47%;
+}
+.banner-1{
+
+	background-image: url(../Images/bg.jpg);
+	background-position: center;
+	padding: 25px 0;
+	
+}
+.banner-1 h6{
+
+	color: #EECE35;
+	text-align:center;
+} 
+.banner-1 a{
+	color: white;
+	padding: 10px;
+	border: 1px solid white;
+	text-align: center;
+	font-weight: bolder;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 12px;
+	margin-left: 39%;
+}
+.banner-2 a{
+	padding: 10px;
+	color: red;
+	font-weight: bolder;
+	text-decoration: none;
+	border: 1px solid red;
+	font-size: 12px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-left: 29%;	
+}
+.banner-1 img{
+    
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+.banner-2 img{
+
+	width: 31%;
+    height: 185px;
+    margin: 6% 0 0 4%;
+    object-fit: cover;
+}
+.banner-2{
+
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-image: url(../Images/bg-2.jpg);
+	position: relative;
+
+}
+.b-b-2{
+  
+	color: white;
+    z-index: 2;
+    position: absolute;
+    left: 29%;
+    bottom: 20%;
+}
+.banneradd{
+
+	width: 100%;
+	height: 320px;
+	margin: auto;
+	display: flex;
+}	
+.b-frame{
+    
+	flex-grow: 1;	
+}
+.b-adds{
+    
+	flex-grow: 2;
+	display: flex;
+	padding: 80px 10px 10px 0px;
+		
+}
+.banner-adds-logos,.banner-adds-logos2,.banner-adds-logos3{
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	
+}
+.banner-icons{
+   
+	width: 108px;
+    background-size: 1045px auto;
+    height: 40px;
+    background-image: url(../Images/icon-4.png);
+}
+.hyatt{
+    
+	
+    background-position: -937px 0;
+}
+.mahindra{
+	
+	width: 122px;
+    background-position: -112px -40px;
+}
+.kpmg{
+    
+    background-position: -144px 0;
+	width: 68px;
+
+}
+.tata{
+   
+	width: 133px;
+    background-position: -112px -80px;
+
+}
+.lorel{
+    
+	width: 106px;
+    background-position: -431px -40px;
+
+}
+.suzuki{
+
+    width: 31px;
+    background-position: -420px 0;
+}
+.sub-footer{
+    
+	width: 100%;
+	height: 200px;
+	display: flex;
+
+}
+.cd-19,.partner,.developer,.mplace{
+
+	flex-grow: 1;
+	display: inline;
+	padding: 10px 10px 10px 30px;
+	position: relative;
+}
+.developer h3::before,.mplace h3::before{
+      
+	content: " ";
+    height: 32px;
+    width: 32px;
+    background-image: url(../Images/icon.png);
+	background-position: -480px -50px;
+    background-repeat: no-repeat;
+    background-size: auto 120px;
+    position: absolute;
+	left: 12%;
+	top: 5px;
+	cursor: pointer;
+}
+.mplace h3::before{
+      
+	background-position: -513px -50px;
+
+}
+.sub-footer p{
+	font-size: 15px;
+	color: #333;
+	line-height: 1.7;
+}
+.sub-footer a{
+
+	color: #03a9f5;
+	text-decoration: none;
+	border-bottom: 1px solid  #03a9f5;
+	line-height: 1.8;
+}
+.footer{
+
+    width: 100%;
+	height: 700px;
+	background-color:#333333;
+    padding: 30px 10px 10px 80px;
+
+}
+.footer-main{
+
+	max-width: 100%;
+}
+.footer1{
+
+	height: 400px;
+	margin: auto;
+    display: flex;
+	padding: 15px;
+}
+.ft-1-b1,.ft-1-b2,.ft-1-b3,.ft-1-b4,.ft-1-b5{
+
+	flex-grow: 1;
+	/* border: 1px solid red; */
+
+}
+.footer1 h2{
+   
+	font-size: 1.5em;
+	color:#ccc;
+	line-height:2;
+}
+.footer1 li{
+
+	
+	font-size: 15px;
+	color:#ccc;
+	line-height:2;
+	list-style-type: none;
+	cursor: pointer;
+}
+form{
+
+	width: 70%;
+	height: 45px;
+	margin: auto;
+	position: relative;
+
+}	
+form input{
+      
+	width: 100%;
+	height: 100%;
+	border: 1px solid #666;
+	color: #fff;
+	padding: 2px 15px;
+	font-size: 14px;
+	background-color: transparent;
+
+}
+.ft-btn p{
+    
+	background-image: url(../Images/icon-5.png);
+	background-position: -123px -17px;
+    vertical-align: middle;
+    background-size: auto 45px;
+    width: 40px;
+    height: 30px;
+	cursor: pointer;
+}
+.ft-btn{
+    
+	height: 100%;
+	background-color: #2D2D2D;
+	position: absolute;
+	top: 0;
+	right: 0;
+	border: 1px solid #666;
+}
+.footer4{
+
+	width:70%;
+	margin: auto;
+	position: relative;
+}
+.footer4 p:nth-child(2){
+
+    color: #ccc;
+    font-size: 11px;
+    padding-right: 10px;
+    cursor: pointer;
+
+}
+.f4{
+	
+	margin:0px auto;
+	
+}
+.f4 li,.footer4 p{
+    
+	list-style-type: none;
+	color:#ccc;
+	font-size: 11px;
+	padding-right:10px;
+	border-right: 1px solid #ccc;
+	cursor: pointer;
+    display: inline-block;
+
+}
+#ft-icon::before{
+
+	content: " ";
+    height: 40px;
+    width: 20px;
+    background-image: url(../Images/icon-7.png);
+    background-position: -280px 20px;
+    background-repeat: no-repeat;
+    background-size: auto 50px;
+    position: absolute;
+    left: 44%;
+    bottom: -5px;
+}
+.social-media{
+
+	max-width: max-content;
+	height: 50px;
+	padding: 0 0 0 30px;
+	margin: auto;
+}
+.social-media-icons{
+
+    width: 30px;
+    height: 32px;
+    display: inline-flex;
+    margin: 7px 1px;
+    background-image: url("../Images/icon.png");
+    background-size: auto 105px;
+    background-repeat: no-repeat;
+	cursor: pointer;
+}
+button{
+
+	cursor: pointer;
+}
+.twit{
+     
+	background-position: -703px -70px;
+
+}
+.fb{
+     
+	background-position: -646px -70px;
+
+}
+.utube{
+     
+	background-position: -674px -70px;
+
+}
+.ldn{
+     
+	background-position: -732px -70px;
+
+}
+.insta{
+     
+	background-position: -760px -70px;
+
+}
+.cards-icons2{
+
+	background-image: url(../Images/icon-3.png);
+	width: 64px;
+    height: 64px;
+    background-size: 960px auto;
+}
+.catalyst-icon{
+	
+    background-position: -510px 0;
+}
+.desk-icon{
+
+	background-position: -320px 0;
+}
+.creator-icon{
+	background-position: -192px 0;
+}
+.analytics-icon{
+
+	background-position: -641px 0;
+}
+.zp-apps a>span {
+    height: 32px;
+    width: 32px;
+}
+.sd-icon{
+
+	background-position: -224px -96px;
+}
+.cards-icon-sprite2{
+	
+	height: 32px;
+    width: 32px;
+	background-size: 960px auto;
+	background-image: url(../Images/icon-3.png);
+	/* margin: 0 0px 10px 14px; */
+
+}
+.cards-icon-sprite3{
+	
+	height: 32px;
+    width: 32px;
+	background-size: 960px auto;
+	background-image: url(../Images/icon-3.png);
+}
+.mdm-icon{
+	
+	 
+	background-position: -256px -96px;
+}
+.pmp-icon{
+
+	background-position: -576px -96px;
+}
+.assist2-icon{
+
+	background-position: -192px -96px;
+}
+.rap-icon{
+
+	background-position: -65px -127px;
+}
+.site-icon{
+
+	background-position: -298px -96px;
+}
+.lmc-icon{
+	background-position: -832px -96px
+}
+.idm-icon{
+
+	background-position: -864px -96px;
+}.dc-icon{
+
+	background-position: -192px -128px;
+}
+.lens-icon{
+  
+	background-position: -32px -127px;
+
+}
+.project2-icon{
+	height: 32px;
+	width: 32px;
+	background-size: 960px auto;
+	background-position: -832px -64px;
+}
+
+.flow-icon{
+	background-position: -416px -96px;
+}
+.it-icon{
+
+	background-position: -544px -96px;
+}
+.orchestly-icon{
+
+	background-position: -609px -96px;
+}.g1,.g2,.g3,.g4,.g5,.g6,.g7,.g8,.g9,.g10{
+
+       
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+.child-box{
+
+	border-top:1px solid #efefef;
+	width: 100%;height: 370px;
+	position: absolute;
+	left: 0;
+	bottom:20px;
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-template-rows: repeat(3,1fr);
+	
+ }
+ #b4-b1{
+	 
+	flex-grow: 1;
+
+ }
+ #b4-b2{
+	 
+	 flex-grow: 1;
+
+ }	
+
+ @media only screen and (max-width:1100px){
+
+	
+	.cards{
+            
+
+		display: flex;
+        flex-direction: column;
+		max-width: 70%;
+	    margin:auto;
+		height: auto;
+
+		 
+	}
+	.card-one{
+		flex-grow: 1;
+		padding: 50px 30px;
+		margin-bottom: 10px	;
+	}
+	.card-two,.card-three,.card-four,.card-five{
+
+		padding: 30px 30px;
+		border: 1px solid rgb(230, 230, 230);
+		border-right: none;
+		border-left:none;
+
+	}
+	.card-two{	
+		
+		border-top:none ;
+	}
+	.banner-2 img{
+
+		width: 38%;
+		height: 180px;
+
+	}
+	.b-b-2{
+
+		transform: translate(-10%,-3%);
+
+	}
+	#c1-c2{
+
+		margin-left:10px;
+	}
+	#meeting{
+
+		margin-left: 10px;
+
+	}
+    .banneradd{
+
+		flex-direction: column;
+	}
+	.card1-child2{
+
+		line-height: 1.8;
+	}
+	
+
+
+        
+
+ }
