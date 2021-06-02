@@ -261,11 +261,11 @@ pre{
 .zoho-one-box{
 
 	 width: 100%;
-	 height: 200px;
-	 /* border:1px solid  rgb(230, 230, 230);  */
+	 height: auto;
 	 border-bottom: none; 
      display: flex;
 	 position: relative;
+	 padding: 20px;
 }
 .z1-card-one{
   
@@ -738,7 +738,7 @@ pre{
 .zoho-all-apps-main2{
 
     width: 100%;
-    height: 800px;
+    height: auto;
 	display: flex;
 	padding: 5px;
 	
@@ -863,7 +863,7 @@ pre{
 .banneradd{
 
 	width: 100%;
-	height: 320px;
+	height: auto;
 	margin: auto;
 	display: flex;
 }	
@@ -927,7 +927,7 @@ pre{
 .sub-footer{
     
 	width: 100%;
-	height: 200px;
+	height: auto;
 	display: flex;
 
 }
@@ -1267,6 +1267,14 @@ button{
 	 flex-grow: 1;
 
  }	
+ #mc-2{
+	 display: none;
+ }
+ iframe{
+
+	width :80%;
+	height: 293px;
+ }
 
  @media only screen and (max-width:1100px){
 
@@ -1327,9 +1335,224 @@ button{
 
 		line-height: 1.8;
 	}
-	
+	        
+	.zoho-one-box{
+
+		flex-direction: column;
+		padding: 20px;
+	}
+	.z1-card-one{
+
+		padding-left: 0px;
+	}
+	.zoho-one-box h6{
+
+		top: -3%;
+		left: 51%;
+	}
+	.z1-card-two{
+		flex-direction: column;
+		align-items: center;
+	}
+	.z1-card-two a{
+		align-self: center;
+	}
+	.banneradd{
+		align-items: center;
+	}
+	.b-adds{
+
+		width: 55%;
+	}
+	#mc-1{
+		display: none;
+	}
+	#mc-2{
+
+		display: block;
+		text-align: center;
+	}
+
+ }
+ @media only screen and (max-width:900px){
+
+	.zoho-logo {
+
+		left: 44%;
+    	top: 45px;
+		margin-bottom:20px;
+	}
+	.nav-1{
+
+		text-align: center;
+	}
+
+	#z1{
+
+		width: 70%;
+		margin: auto;
+	}
+
+	.z1-card-two{
+	font-size: 14px;
+    text-align: center;
+
+    }
+	.zoho-one-apps{
+
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+	}
+	.z1-apps{
+
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 0px;
+    align-items: center;
+	border-bottom: 1px solid #efefef;
+ }
+	.zoho-one-apps a{
+
+		padding-top: 5px;
+		align-self:center;
+	}
+	.zoho-all-apps-main,.zoho-all-apps-main2{
+
+		flex-direction: column;
+		height: auto;
+    	width: 70%;
+    	margin: auto;
+
+	}
+	.zoho-all-apps-main-box3 {
 
 
-        
+		grid-template-rows: 1.5fr repeat(4,1fr);
+
+	}
+	.zoho-all-apps-main-box1, .zoho-all-apps-main-box2, .zoho-all-apps-main-box3,.main2-b1,.main2-b3 {
+
+			border-left: 1px solid #efefef;
+			padding: 0px;
+
+	}
+	.zoho-all-apps-main-box3{
+
+		border-right: 1px solid #efefef;
+		border-bottom: 1px solid #efefef;
+	}
+	.main2-b2{
+
+		width: 100%;
+		border-left: 1px solid #efefef;
+	}
+	.main2-b3{
+		grid-template-rows: repeat(3,1fr);
+	}
+	.main2-b1, .main2-b3,.main2-b3{
+
+		padding: 10px;
+	}
+	.banner {
+		width: 70%;
+		height: auto;
+		margin: auto;
+		display: flex;
+		flex-direction: column;
+	}
+	.banner-1, .banner-2 {
+		width: 90%;
+		margin: 20px;
+	}
+	.sub-footer{
+
+		flex-wrap: wrap;
+}
+	.developer h3::before, .mplace h3::before {
+
+		left: 5%;
+	}
+	.footer1{
+
+		height: auto;
+		flex-direction: column;
+	}
+	.ft-1-b1 ul, .ft-1-b2 ul, .ft-1-b3 ul, .ft-1-b4 ul, .ft-1-b5 ul{
+
+		display: flex;
+		padding: 0px 10px;
+    	flex-wrap: wrap;
+    	justify-content: space-around;
+    	align-items: center;
+	}
+ }
+ @media only screen and (max-width:800px){
+
+		.card-one{
+
+			flex-direction: column;
+			padding: 30px;
+		}
+		.card-1child2{
+
+			width: 100%;
+			align-items: center;
+		}
+		.developer h3::before, .mplace h3::before {
+			left: 8%;
+		}
+
+	.footer1 li{
+
+		margin: 20px 10px;
+	}
+	.ft-1-b1 ul, .ft-1-b2 ul, .ft-1-b3 ul, .ft-1-b4 ul, .ft-1-b5 ul{
+
+		
+    	justify-content: none;
+    	align-items: none;
+	}
+	.footer{
+
+		height: auto;
+	}
+	.footer4{
+		width: 100%;
+	}
+
+ }
+ @media only screen and (max-width:670px){
+
+
+			header a{
+
+				font-size: 14px;
+			}
+
+			.banneradd{
+
+				align-items: none;
+
+			}
+			.b-adds,.b-frame{
+
+				width: 100%;
+			}
+
+
+				.b-frame{
+
+					width: 100%;
+					margin: auto;
+					transform: translate(10%);
+				}
+		.zoho-one-box h6{
+
+			top: -2%;
+		}
+			
+		
 
  }
