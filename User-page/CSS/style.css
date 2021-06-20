@@ -672,10 +672,10 @@ input{
 #chat-footer span,#chat-footer-header{
 
 
-    font-size: 1.4rem;
+    font-size: 2rem;
 
 }
-#b1{
+#b1,#b2{
 
     display: none;
     padding: 15.5px;
@@ -684,9 +684,9 @@ input{
     font-size: 2.3rem;
     border-right: 1px solid #efefef
 }
-#b2{
+.dis{
 
-    display: none;
+    display: flex;
 }
 @media only screen and (max-width:1200px){
 
@@ -805,5 +805,49 @@ input{
         }
 
 }   
+@media only screen and (max-width:400px) {
+
+    .container{
+
+        width: 70%;
+        margin: auto;
+    }
+
+    .main-content{
+
+        display: flex;
+        flex-direction: column;
+    }
+    .content-1{
+
+        border-left: 1px solid #efefef;
+    }
+    #button{
+
+        border-left: 1px solid #efefef;
+    }
+    #nav-1-i1{
+
+
+        display: none;
+    }
+    .navbar{
+
+        width: auto;
+        position: absolute;
+        top: 10%;
+        box-shadow: 2px 0px 8px 2px lightgrey;
+    }
+    #b2{
+
+        border-left: 1px solid #efefef;
+    }
+    .card-aside{
+
+        width: 250px;
+    }
+
+
+}
 
 

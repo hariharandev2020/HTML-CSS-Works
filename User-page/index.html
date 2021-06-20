@@ -20,8 +20,8 @@
                 <div id="button"> 
 
                        <button> New </button> 
-                       <span class="material-icons" id="b1">menu</span>
-                       <span class="material-icons" id="b2">close</span>
+                       <span class="material-icons" id="b1" onclick="viewNav()">menu</span>
+                       <span class="material-icons" id="b2" onclick="closeNav()">close</span>
                       
                 </div>
 
@@ -60,7 +60,7 @@
 
                         <div class="nav-1">
                 
-                            <span class="material-icons filled" style="flex-grow: 1.5;text-align: center;">menu
+                            <span class="material-icons filled" id="nav-1-i1" style="flex-grow: 1.5;text-align: center;">menu
                                 </span>
                 
                             <div id="nav-icons">
@@ -468,7 +468,7 @@
                 
                             <div id="slide-images">
                 
-                                <span class="material-icons" id="chat">chat</span>
+                                <span class="material-icons" id="chat" onclick="chatView()" ondblclick="closeChat()">chat</span>
                                
                                 <img src="Images/men.jpeg" alt="" style="margin-top: 15px;">
                                 <img src="Images/men2.jpeg" alt="">
@@ -495,11 +495,47 @@
                     </div>
                 
 
-
-
-
             <!--container div  -->
         </div>
+
+
+        <script>
+
+            
+
+           function viewNav(){
+
+                var navi  = document.querySelector(".navbar");
+                navi.style.display = "block";
+                document.querySelector("#b2").style.display = "block";
+                document.querySelector("#b1").style.display = "none";
+
+            }
+           function  closeNav(){
+
+                var navi  = document.querySelector(".navbar");
+                navi.style.display = "none";
+                document.querySelector("#b2").style.display = "none";
+                document.querySelector("#b1").style.display = "block";
+
+
+            }
+           function chatView(){
+
+                var chats = document.querySelector(".card-aside");
+                chats.style.display = "block";
+
+           } 
+           function closeChat(){
+
+            var chats = document.querySelector(".card-aside");
+            chats.style.display = "none";
+
+
+           }
+
+
+        </script>
 
 
 </body>
