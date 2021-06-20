@@ -507,14 +507,17 @@
 
                 var navi  = document.querySelector(".navbar");
                 navi.style.display = "block";
+                navi.style.transition = "100s";
                 document.querySelector("#b2").style.display = "block";
                 document.querySelector("#b1").style.display = "none";
+
 
             }
            function  closeNav(){
 
                 var navi  = document.querySelector(".navbar");
                 navi.style.display = "none";
+                navi.style.transition = "100s";
                 document.querySelector("#b2").style.display = "none";
                 document.querySelector("#b1").style.display = "block";
 
@@ -524,13 +527,14 @@
 
                 var chats = document.querySelector(".card-aside");
                 chats.style.display = "block";
+                chats.style.transition = "100s";
 
            } 
            function closeChat(){
 
             var chats = document.querySelector(".card-aside");
             chats.style.display = "none";
-
+            chats.style.transition = "100s";
 
            }
 
