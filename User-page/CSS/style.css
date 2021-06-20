@@ -844,7 +844,11 @@ input{
     }
     .card-aside{
 
-        width: 250px;
+        width: 80%;
+    }
+    .sidebar{
+
+        top: 45%;
     }
 
 
