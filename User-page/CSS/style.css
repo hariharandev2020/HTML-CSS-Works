@@ -9,6 +9,7 @@
     font-size: 12px;
 
 }
+
 #button{
 
     grid-area: btn;
@@ -60,7 +61,8 @@ button{
     width: 100%;
     display: flex;
     justify-content: space-between; 
-    border-bottom: 1px solid #efefef;           
+    border-bottom: 1px solid #efefef;  
+    background-color: white;         
 }        
 #header-1{
 
@@ -543,7 +545,7 @@ img:hover{
 }
 .card-aside{
 
-    width: 200px;
+    width: 250px;
     height: auto;
     position: absolute;
     top: 0;
@@ -585,7 +587,7 @@ img:hover{
     clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 100% 75%, 100% 99%, 94% 90%, 0 90%);
     font-size: 0.6rem;
     border-radius: 5px;
-    max-width: 120px;
+    
 }
 .chat-1 span,.chat-2 span{
 
@@ -703,7 +705,7 @@ input{
 
         *{
 
-            font-size: 8px;
+            font-size: 10px;
         }
 
         .container{
@@ -728,6 +730,11 @@ input{
             top: -10.5%s;
 
         }
+        .card-aside{
+
+            width: 220px;
+        }
+    }        
         @media only screen and (max-width:900px){
 
 
@@ -756,12 +763,25 @@ input{
 
                 display: block;
             }
+            .card-aside{
+
+                width: 250px;
+            }
+            .navbar{
+
+
+                position: absolute;
+                top: 10%;
+                left: 50px;
+            }
+            #nav-1-i1{
+
+                display: none;
+            }
 
 
         }
-
-
-}  
+  
 @media only  screen and (max-width:750px){
 
 
@@ -779,7 +799,43 @@ input{
 
             display: none;
         }
+        .nav-bar{
 
+            left: 0;
+        }
+        #nav-icons{
+
+            display: flex;
+            flex-direction: row
+        }
+        #nav-icons span{
+
+            margin-bottom: 0%;
+        }
+        #circles{
+
+            display: none;
+        }
+        .nav-2{
+
+            padding: 0;
+        }
+        #nav-list li, #nav-list-3 li,#nav-list-2 li{
+
+            line-height: 2;
+        }
+        .navbar{
+
+
+            position: absolute;
+            left: 0px;
+            z-index: 8;
+        }
+        #circles{
+
+            display: none;
+        }
+        
 
 }     
 @media only screen and (max-width:630px) {
@@ -803,9 +859,10 @@ input{
 
             white-space: nowrap;
         }
+        
 
 }   
-@media only screen and (max-width:400px) {
+@media only screen and (max-width:500px) {
 
     .container{
 
@@ -845,11 +902,17 @@ input{
     .card-aside{
 
         width: 80%;
+        position: absolute;
+        top: -512px;
     }
-    .sidebar{
+    .content-2-main p {
+        font-size: 1.2rem;
+    }
+    .slider{
 
-        top: 43%;
+        box-shadow: 0;
     }
+
 
 
 }
