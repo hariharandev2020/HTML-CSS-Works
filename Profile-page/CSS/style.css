@@ -130,6 +130,7 @@ a:hover{
         position: none;
         width: 55%;
         height: 400px;
+        top:12%;
         display: block;
         left: 50%;
         transform: translate(-50%, 0px);
