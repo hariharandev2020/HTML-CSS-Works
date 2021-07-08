@@ -971,7 +971,7 @@ pre{
 .footer{
 
     width: 100%;
-	height: 700px;
+	height: auto;
 	background-color:#333333;
     padding: 30px 10px 10px 80px;
 
@@ -1093,7 +1093,7 @@ form input{
 
 	max-width: max-content;
 	height: 50px;
-	padding: 0 0 0 30px;
+	padding: 0 0 0 0px;
 	margin: auto;
 }
 .social-media-icons{
@@ -1288,6 +1288,14 @@ button{
 	text-align: center;
 	font-size: 2.4em;
 }
+#f-last{
+
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
 
  @media only screen and (max-width:1100px){
 
@@ -1314,6 +1322,8 @@ button{
 		border: 1px solid rgb(230, 230, 230);
 		border-right: none;
 		border-left:none;
+		width: 60%;
+		margin: auto
 
 	}
 	.card-two{	
@@ -1375,7 +1385,17 @@ button{
 	}
 	.b-adds{
 
-		width: 55%;
+		width: 100%;
+	}
+	.banner-adds-logos, .banner-adds-logos2, .banner-adds-logos3 {
+		
+		align-items: center;
+	}
+	.b-frame {
+		
+		width: 100%;
+		display: flex;
+		justify-content: center;
 	}
 	#mc-1{
 		display: none;
@@ -1391,7 +1411,8 @@ button{
 
 	.zoho-logo {
 
-		left: 44%;
+		left: 50%;
+		transform: translate(-50%);
     	top: 45px;
 		margin-bottom:20px;
 	}
@@ -1487,6 +1508,10 @@ button{
 
 		left: 5%;
 	}
+	.footer1 h2 {
+
+		text-align: center;
+	}
 	.footer1{
 
 		height: auto;
@@ -1495,10 +1520,21 @@ button{
 	.ft-1-b1 ul, .ft-1-b2 ul, .ft-1-b3 ul, .ft-1-b4 ul, .ft-1-b5 ul{
 
 		display: flex;
-		padding: 0px 10px;
+		padding: 20px 10px;
     	flex-wrap: wrap;
     	justify-content: space-around;
-    	align-items: center;
+    	align-items: baseline;
+		border-bottom: 1px solid white;
+	}
+	.f4 {
+		text-align: center;
+	}
+	.ft-1-b5 ul{
+
+		border-bottom: none;
+	}
+	.footer{
+		padding: 20px 0px;
 	}
  }
  @media only screen and (max-width:800px){
@@ -1519,20 +1555,17 @@ button{
 
 	.footer1 li{
 
-		margin: 20px 10px;
-	}
-	.ft-1-b1 ul, .ft-1-b2 ul, .ft-1-b3 ul, .ft-1-b4 ul, .ft-1-b5 ul{
-
-		
-    	justify-content: none;
-    	align-items: none;
-	}
-	.footer{
-
-		height: auto;
+		margin:10px;
 	}
 	.footer4{
 		width: 100%;
+	}
+	.card-two,.card-three,.card-four,.card-five{
+		
+		border-left:none;
+		width: 100%;
+		margin: auto
+
 	}
 
  }
@@ -1549,18 +1582,10 @@ button{
 				align-items: none;
 
 			}
-			.b-adds,.b-frame{
+			.b-frame{
 
 				width: 100%;
 			}
-
-
-				.b-frame{
-
-					width: 100%;
-					margin: auto;
-					transform: translate(10%);
-				}
 		.zoho-one-box h6{
 
 			top: -2%;
@@ -1603,9 +1628,12 @@ button{
 
 			font-size: 1.4rem;
 		}
+		#ft-icon::before {
+
+			left: 42%;
 		
+		}
 			
-		
 
  }
  @media only screen and (max-width:540px){
@@ -1637,8 +1665,53 @@ button{
 		width: 110px;
 		font-size: 0.8rem;
 	}
+	.cards{
+
+		width: 100%;
+	}
+	.card-one {
+		
+		padding: 40px 20px;
+	}
+	#ft-icon::before {
+
+		left: 41%;
+	
+	}
+	form input {
+		
+		padding: 2px 8px;
+		font-size: 10px;
+	}
 		
 
 
+ }
+ @media only screen and (max-width:450px){
 
+	.b-adds {
+		
+		FLEX-DIRECTION: column;
+	}
+	.b-b-2 {
+    transform: translate(-17%,-3%);
+	text-align: center;
+	}	
+	.b-b-2 h1{
+
+		font-size: 20px;
+
+	}
+
+	.banner-2 a {
+		padding: 8px;
+		font-size: 10px;
+		text-align: center;
+		text-transform: uppercase;
+		margin: 0;
+	}
+	.banner-1 a {
+		
+		margin-left: 35%;
+	}	
  }
