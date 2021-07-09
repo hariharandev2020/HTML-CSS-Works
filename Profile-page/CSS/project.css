@@ -18,13 +18,14 @@
 }
 header p{
 
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     text-align: center;
-    color: #00acee;
+    color: black;
     font-weight: bolder;
     border-bottom: 1px solid #e8e8e8;
     padding-bottom: 25px;
-    font-family: 'Mate SC', serif;
+    text-shadow: 3px 3px 3px lightgrey;
+
 }
 #head{
 
@@ -67,8 +68,15 @@ header p{
 .card h3 {
     color: #00ACEE;
     font-weight: 600;
-    font-size: 1.6rem;
-    
+    font-size: 1.5rem;
+      
+}
+.card h3:hover{
+
+    transform: scale(1.1);
+    transition: 500ms;
+    text-shadow: none;
+
 }
 .card:nth-child(2n){
 
@@ -80,7 +88,7 @@ header p{
     text-decoration: none;
     font-size: 1rem;
 }
-.card:nth-last-child(2),.card:nth-last-child(1){
+.card:nth-last-child(1){
 
   
     border-bottom: none;
@@ -125,6 +133,11 @@ footer a:hover{
     transition: 300ms;
     
 }
+#zoho-card{
+
+    grid-area: 4/1/5/3;
+    border-right: none ;
+}
 @media only  screen and (max-width:950px) {
 
 
@@ -150,10 +163,14 @@ footer a:hover{
     .card:nth-child(2n){
 
         border-right: 1px solid #efefef;
+        border-top: none;
     }
     footer{
 
         flex-direction: column;
+    }
+    #zoho-card {
+        grid-area: auto;
     }
    
 }
