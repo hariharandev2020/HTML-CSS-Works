@@ -1406,7 +1406,7 @@ button{
 	}
 
  }
- @media only screen and (max-width:1600px){
+ @media only screen and (min-width:1600px){
 
 	.developer h3::before, .mplace h3::before{
 
