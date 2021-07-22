@@ -8,7 +8,7 @@
 }
 .container{
      
-    max-width: 1280px;
+    max-width: 80%;
 	margin: auto; 
 
 }
@@ -36,7 +36,6 @@ header a{
 nav{
     
 	width: 95%;
-    
     position: relative;
     margin: 20px auto 0;
  
@@ -1403,6 +1402,17 @@ button{
 	#mc-2{
 
 		display: block;
+		text-align: center;
+	}
+
+ }
+ @media only screen and (max-width:1600px){
+
+	.developer h3::before, .mplace h3::before{
+
+		left: 7%;
+	}
+	.f4{
 		text-align: center;
 	}
 
