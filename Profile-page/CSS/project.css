@@ -12,14 +12,16 @@
     width: 100%;
     height: 100vh;
     padding: 30px;
-    /* animation: transitionIn 0.40s; */
+    animation: transitionIn 0.45s;
 }
 @keyframes transitionIn {
 
     from {
-        transform: translateY(10%);
+        Opacity: 0;
+        transform: translateY(-15%);
     }
     to{
+        Opacity: 1;
         transform:translateY(0%);
     }
 }
