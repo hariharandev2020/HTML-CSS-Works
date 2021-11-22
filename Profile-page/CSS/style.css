@@ -195,6 +195,8 @@ transform: scale(0.8);
     display: flex;
     align-items: center;
     justify-content: space-around;
+    border-top: 1px solid #efefef6e;
+    border-bottom: 1px solid #efefef6e;
 }
 #footer > a{
     color: var(--white);
@@ -202,6 +204,62 @@ transform: scale(0.8);
 }
 #footer > a:hover{
     border-bottom: var(--white);
+}
+.animation{
+    padding:20px;
+    background-color: #282A35;
+}
+.ani-container{
+    margin: auto;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    border-radius:50%;
+    position: relative;
+    background-image: linear-gradient(to left, #fff, #fff 50%, #000 50%, #000);
+    animation: rotate 20s linear 5s infinite ;
+    z-index: 1;
+}
+.parent{
+    margin: auto;   
+    width: 125px;
+    height: 125px;
+    border-radius:50%;
+    position: absolute;
+    left: 26%;
+    z-index:3;
+    background-image: linear-gradient(to left, #fff, #fff 50%, #000 50%, #000);
+    animation: rotate 10s linear  infinite ;
+    animation-direction: reverse;
+}
+.flex-div{
+    flex-grow: 1;
+}
+.child,.child-2{
+    width: 63px;
+    height: 63px;
+    border-radius:50%;
+    position:absolute;
+    left: 24%;
+}
+.child{
+    background-color:#000;
+    top:0%;
+    border: 25px solid white;
+}
+.child-2{
+    background-color:#fff;
+    bottom: 0%;
+    border: 25px solid black;
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-360deg)
+    }
 }
 @media only screen and (max-width: 500px) {
     :root {
@@ -213,6 +271,5 @@ transform: scale(0.8);
     #footer{
         flex-direction: column;
     }
-
   }
 
